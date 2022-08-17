@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: bun run app/http.js
+  web: bun run /app/http.js
