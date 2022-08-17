@@ -1,5 +1,6 @@
 export default {
-  port: 3000,
+  hostname: '0.0.0.0',
+  port: process.env.PORT || 3000,
   fetch(request) {
     console.log(`Requesting ${request.url}`);
 
