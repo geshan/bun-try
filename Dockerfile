@@ -1,4 +1,4 @@
-FROM jarredsumner/bun:edge
+FROM jarredsumner/bun:0.1.10
 
 COPY http.js /app/http.js
 
